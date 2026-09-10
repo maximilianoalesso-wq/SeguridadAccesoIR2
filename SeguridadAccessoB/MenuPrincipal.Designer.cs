@@ -137,6 +137,7 @@
             this.btnIdentificar.TabIndex = 6;
             this.btnIdentificar.Text = "   Identificar";
             this.btnIdentificar.UseVisualStyleBackColor = true;
+            this.btnIdentificar.Click += new System.EventHandler(this.btnIdentificar_Click);
             // 
             // btnRegistrar
             // 
@@ -226,6 +227,7 @@
             this.Text = "ISP20 - Seguridad de Acceso Biométrico";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MenuPrincipal_FormClosing);
+            this.Resize += new System.EventHandler(this.MenuPrincipal_Resize);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.panelTitulo.ResumeLayout(false);

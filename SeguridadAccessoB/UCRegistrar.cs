@@ -56,10 +56,18 @@ namespace SeguridadAccessoB
             }
             LectorHuella.CargarCacheLector(listaUsuarioLector);
             LectorHuella.IniciarIdentificacion();
-
+            lbEstadoLector.Text = "Identificando...";
 
         }
 
+        public void FinalizarLectorHuella()
+        {
+            LectorHuella.HuellaEscaneadaRegistroEvent -= this.HuellaEscaneadaRegistro; //se dispara al ir registran las tres capturas de una huella, envía un int indicando cuántas capturas faltan
+            LectorHuella.HuellaCapturadaCorrectamenteRegistroEvent -= HuellaCatpuradaCorrectamenteRegistro; //se dispara al registrar la huella correctamente luego de 3 capturas, aquí se debe tomar el template
+            LectorHuella.HuellaEscaneadaIdentificacionEvent -= this.HuellaEscaneadaIdentificacion; // se dispara al identificar huella y envía id del usuario identificado
+            LectorHuella.ErrorCapturaHuellaEvent -= this.ErrorCapturaHuella; //se dispara al ocurrir cualquier error y envía como parámetro tipo string
+            LectorHuella.Finalizar();
+        }
         private void ErrorCapturaHuella(string msjError)
         {
             System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep_error.wav");
@@ -68,6 +76,7 @@ namespace SeguridadAccessoB
             _deshabilitarForm();
             _limpiarForm();
             LectorHuella.IniciarIdentificacion();
+            lbEstadoLector.Text = "Identificando...";
         }
 
         private void btnNuevo_Click(object sender, EventArgs e)
@@ -122,7 +131,7 @@ namespace SeguridadAccessoB
         }
         private void _setEstadoLector(string msj)
         {
-            lbEstadoLector.Text = msj;
+            lbMensajes.Text = msj;
         }
         private void _habilitarForm()
         {
@@ -176,6 +185,7 @@ namespace SeguridadAccessoB
                 _limpiarForm();
             }
             LectorHuella.IniciarIdentificacion();
+            lbEstadoLector.Text = "Identificando...";
         }
 
         private void btnBuscar_Click(object sender, EventArgs e)

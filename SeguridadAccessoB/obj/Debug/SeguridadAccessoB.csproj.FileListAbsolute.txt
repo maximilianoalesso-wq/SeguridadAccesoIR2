@@ -31,3 +31,4 @@ C:\Temp\codigos\SeguridadAccessoB\SeguridadAccessoB\obj\Debug\SeguridadAccessoB.
 C:\Temp\codigos\SeguridadAccessoB\SeguridadAccessoB\obj\Debug\Segurida.409C955E.Up2Date
 C:\Temp\codigos\SeguridadAccessoB\SeguridadAccessoB\obj\Debug\SeguridadAccessoB.BuscarUsuarioForm.resources
 C:\Temp\codigos\SeguridadAccessoB\SeguridadAccessoB\bin\Debug\libzkfpcsharp.dll
+C:\Temp\codigos\SeguridadAccessoB\SeguridadAccessoB\obj\Debug\SeguridadAccessoB.UCIdentificar.resources
