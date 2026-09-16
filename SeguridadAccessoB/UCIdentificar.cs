@@ -155,9 +155,11 @@ namespace SeguridadAccessoB
             System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep_error.wav");
             player.Play();
             lbTitulo.Text = "ACCESO DENEGADO";
-            lbNombre.Text = "";
+            lbNombre.Text = "Regístrese en el sistema, por favor.";
+            Application.DoEvents();
             System.Threading.Thread.Sleep(3000);
             lbTitulo.Text = "CAPTURANDO";
+            lbNombre.Text = "";
         }
         private void HuellaEscaneadaIdentificacion(int id)
         {
@@ -179,19 +181,28 @@ namespace SeguridadAccessoB
             System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep_error.wav");
             player.Play();
             lbTitulo.Text = "ACCESO DENEGADO";
-            lbNombre.Text = "";
+            lbNombre.Text = "Regístrese en el sistema, por favor.";
+            Image imagen = Image.FromFile(Application.StartupPath + "\\x-circle.png");
+            pbIcon.Image = imagen;
             Application.DoEvents();
             System.Threading.Thread.Sleep(3000);
             lbTitulo.Text = "CAPTURANDO";
+            pbIcon.Image = null;
+
         }
         private void AbrirPorton()
         {
             if (PuertoArduino.IsOpen)
             {
                 lbTitulo.Text = "ACCESO CONCEDIDO!";
-                lbNombre.Text = _usuario.Nombre;
+                lbNombre.Text = "Bienvenido " + _usuario.Nombre;
                 PuertoArduino.WriteLine("open");
                 _timerContador.Start();
+                Image imagen = Image.FromFile(Application.StartupPath + "\\check-circle.png");
+                pbIcon.Image = imagen;
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(3000);
+                pbIcon.Image = null;
             }
         }
     }
