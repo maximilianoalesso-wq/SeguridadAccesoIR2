@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Temp\\codigos\\SeguridadAccessoB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|C:\\Temp\\codigos\\SeguridadAccessoB\\seguridadaccessob\\ucidentificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|c:\\temp\\codigos\\seguridadaccessob\\seguridadaccessob\\ucidentificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|solutionrelative:seguridadaccessob\\ucidentificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|solutionrelative:seguridadaccessob\\ucidentificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|c:\\temp\\codigos\\seguridadaccessob\\seguridadaccessob\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|C:\\Temp\\codigos\\SeguridadAccessoB\\seguridadaccessob\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AB3059A-F103-4F56-A430-9DFF06C57DE8}|SeguridadAccessoB\\SeguridadAccessoB.csproj|solutionrelative:seguridadaccessob\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "SeguridadAccessoB\\MenuPrincipal.cs",
               "ViewState": "AQIAAFIAAAAAAAAAAAAmwFcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T23:34:17.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T23:34:17.169Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "SeguridadAccessoB\\UCIdentificar.cs",
               "ToolTip": "C:\\Temp\\codigos\\SeguridadAccessoB\\SeguridadAccessoB\\UCIdentificar.cs",
               "RelativeToolTip": "SeguridadAccessoB\\UCIdentificar.cs",
-              "ViewState": "AQIAALAAAAAAAAAAAAD4v7IAAAAkAAAA",
+              "ViewState": "AQIAALAAAAAAAAAAAAD4v7QAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T20:37:14.448Z",
               "EditorCaption": ""
@@ -102,8 +101,7 @@
               "ToolTip": "C:\\Temp\\codigos\\SeguridadAccessoB\\SeguridadAccessoB\\UCIdentificar.cs [Dise\u00F1o]",
               "RelativeToolTip": "SeguridadAccessoB\\UCIdentificar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T20:28:51.722Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-09-09T20:28:51.722Z"
             },
             {
               "$type": "Document",
